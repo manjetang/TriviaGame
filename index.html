@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+		
+		<div id = start_container>
+			
+			<h1>Trivia</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+		
+		<div id = mid_game_container>
+			
+			<h1>Trivia</h1>
+
+			
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			
+			<h1>1. Which planet is the closest to Earth?</h1>
+			<!-- Venus -->
+				<input type="radio" name="q1" value="Jupiter">Jupiter
+				<input type="radio" name="q1" value="Venus">Venus
+				<input type="radio" name="q1" value="Saturn">Saturn
+				<input type="radio" name="q1" value="Mars">Mars
+				
+
+			<h1>2. How many sides does an octagon have?</h1>
+			<!-- Eight -->
+				<input type="radio" name="q2" value="Seven">Seven
+				<input type="radio" name="q2" value="Ten">Ten 
+				<input type="radio" name="q2" value="Eight">Eight 
+				<input type="radio" name="q2" value="Six">Six 
+
+
+
+			<h1>3. Which part of the body would a chiropodist treat?</h1>
+			<!-- The feet -->
+				<input type="radio" name="q3" value="The feet">The feet 
+				<input type="radio" name="q3" value="The stomach">The stomach 
+				<input type="radio" name="q3" value="The head">The head
+				<input type="radio" name="q3" value="The back">The back 
+
+
+			<h1>4. What is the capital of the USA?</h1>
+			<!-- Washington DC -->
+				<input type="radio" name="q4" value="Dallas">Dallas
+				<input type="radio" name="q4" value="Los Angeles">Los Angeles 
+				<input type="radio" name="q4" value="Boston">Boston
+				<input type="radio" name="q4" value="New York">New York 
+				<input type="radio" name="q4" value="Washington DC">Washington DC 
+
+
+			<h1>5. How many Continents are there in the World?</h1>
+			<!-- Seven  -->
+				<input type="radio" name="q5" value="Six">Six 
+				<input type="radio" name="q5" value="Five">Five 
+				<input type="radio" name="q5" value="Nine">Nine 
+				<input type="radio" name="q5" value="Eight">Eight 
+				<input type="radio" name="q5" value="Seven">Seven 
+			
+			<h1>6. Who is the founder of Facebook?</h1>
+			<!-- Mark Zuckerberg -->
+				<input type="radio" name="q6" value="Larry Page">Larry Page 
+				<input type="radio" name="q6" value="Jeff Bezos">Jeff Bezos 
+				<input type="radio" name="q6" value="Steve Jobs">Steve Jobs 
+				<input type="radio" name="q6" value="Mark Zuckerberg">Mark Zuckerberg 
+				
+
+			<h1>7. Which ocean is off the California coast?</h1>
+			<!-- Pacific Ocean -->
+				<input type="radio" name="q7" value="Antartic Ocean">Antartic Ocean 
+				<input type="radio" name="q7" value="Indian Ocean">Indian Ocean 
+				<input type="radio" name="q7" value="Atlantic Ocean">Atlantic Ocean 
+				<input type="radio" name="q7" value="Pacific Ocean">Pacific Ocean
+
+			<h1>8. Who was the first President of the United States?</h1>
+			<!-- George Washington -->
+				<input type="radio" name="q8" value="Thomas Jefferson">Thomas Jefferson 
+				<input type="radio" name="q8" value="John Adams">John Adams 
+				<input type="radio" name="q8" value="Abraham Lincoln">Abraham Lincoln 
+				<input type="radio" name="q8" value="George Washington">George Washington 
+
+			<h1>9. Ascorbic Acid is another name for which Vitamin?</h1>
+			<!-- Vitamin C -->
+				<input type="radio" name="q9" value="Vitamin K">Vitamin K 
+				<input type="radio" name="q9" value="Vitamin A">Vitamin A 
+				<input type="radio" name="q9" value="Vitamin C">Vitamin C 
+				<input type="radio" name="q9" value="Vitamin B">Vitamin B
+
+			<h1>10. Which is the highest mountain in the World?</h1>
+			<!-- Mt Evarest -->
+				<input type="radio" name="q10" value="Mt K2">Mt K2
+				<input type="radio" name="q10" value="Mt Makalu">Mt Makalu
+				<input type="radio" name="q10" value="Mt Kilimanjaro">Mt Kilimanjaro 
+				<input type="radio" name="q10" value="Mt Evarest">Mt Evarest
+
+				<br>
+
+			<button id = done_button>Done!</button>
+
+		</div>
+		
+		<div id = end_container>
+			
+			<h1> Trivia</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
